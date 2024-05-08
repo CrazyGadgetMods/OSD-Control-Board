@@ -10,8 +10,7 @@ LT, RT, Z and S held together trigger the master key which, in combination with 
 
 Keep in mind, you can change the master button combination (or any of the other buttons) to better fit to your portable. For example, I like to wire S on the OSD board to Z2 on my GC+ in all my Ashidas, as the original button combination was not ergonomic. Likewise, you can tie multiple inputs together if you want a master combo with less buttons.
 
-<img src="https://github.com/CrazyGadgetMods/OSD Control Board/blob/main/images/assembled.jpg" height=500>
-<img src="https://github.com/CrazyGadgetMods/OSD Control Board/blob/main/images/g-boy install.jpg" height=500> <img src="https://github.com/CrazyGadgetMods/OSD Control Board/blob/main/images/ashida install.jpg" height=500>
+<img src="https://github.com/CrazyGadgetMods/OSD-Control-Board/blob/main/images/assembled.jpg" height=300> <img src="https://github.com/CrazyGadgetMods/OSD-Control-Board/blob/main/images/g-boy install.jpg" height=300> <img src="https://github.com/CrazyGadgetMods/OSD-Control-Board/blob/main/images/ashida install.jpg" height=300>
 
 ## Credits
 - [BitBuilt](https://bitbuilt.net/): Being the best modding community out there!
