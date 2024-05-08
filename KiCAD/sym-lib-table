@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "Gboy Screen Controller")(type Legacy)(uri "${KIPRJMOD}/Gboy Screen Controller.lib")(options "")(descr ""))
+)

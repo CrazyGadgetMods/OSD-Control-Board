@@ -1,0 +1,415 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Gboy~Screen~Controller:SN74HCS7002PWR U2
+U 1 1 618D3FE1
+P 2850 2100
+F 0 "U2" H 2650 2650 50  0000 C CNN
+F 1 "SN74HCS7002PWR" H 3250 1600 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 2800 2200 50  0001 C CNN
+F 3 "" H 2800 2200 50  0001 C CNN
+	1    2850 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Gboy~Screen~Controller:SN74HCS32PWR U1
+U 1 1 618D2361
+P 1150 2100
+F 0 "U1" H 950 2650 50  0000 C CNN
+F 1 "SN74HCS32PWR" H 1500 1600 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 1100 2200 50  0001 C CNN
+F 3 "" H 1100 2200 50  0001 C CNN
+	1    1150 2100
+	1    0    0    -1  
+$EndComp
+Text Label 1450 1850 0    50   ~ 0
+2A
+Text Label 850  2000 2    50   ~ 0
+2A
+Text Label 1450 2050 0    50   ~ 0
+3A
+Text Label 850  2200 2    50   ~ 0
+3A
+Text Label 1450 2250 0    50   ~ 0
+OR_OUT
+Text Label 2550 1900 2    50   ~ 0
+OR_OUT
+Text Label 2550 2100 2    50   ~ 0
+OR_OUT
+Text Label 2550 2300 2    50   ~ 0
+OR_OUT
+Text Label 2550 2500 2    50   ~ 0
+OR_OUT
+$Comp
+L Connector:TestPoint TP6
+U 1 1 618DC55E
+P 2500 850
+F 0 "TP6" H 2558 968 50  0000 L CNN
+F 1 "S" H 2558 877 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 2700 850 50  0001 C CNN
+F 3 "~" H 2700 850 50  0001 C CNN
+	1    2500 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP7
+U 1 1 618DC8B4
+P 3200 850
+F 0 "TP7" H 3258 968 50  0000 L CNN
+F 1 "DU" H 3258 877 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3400 850 50  0001 C CNN
+F 3 "~" H 3400 850 50  0001 C CNN
+	1    3200 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP8
+U 1 1 618DCC4F
+P 3650 850
+F 0 "TP8" H 3708 968 50  0000 L CNN
+F 1 "DD" H 3708 877 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3850 850 50  0001 C CNN
+F 3 "~" H 3850 850 50  0001 C CNN
+	1    3650 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP9
+U 1 1 618DCEAE
+P 4100 850
+F 0 "TP9" H 4158 968 50  0000 L CNN
+F 1 "DL" H 4158 877 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4300 850 50  0001 C CNN
+F 3 "~" H 4300 850 50  0001 C CNN
+	1    4100 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP10
+U 1 1 618DDDB3
+P 4150 1400
+F 0 "TP10" H 4208 1518 50  0000 L CNN
+F 1 "Menu" H 4208 1427 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4350 1400 50  0001 C CNN
+F 3 "~" H 4350 1400 50  0001 C CNN
+	1    4150 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP12
+U 1 1 618DE903
+P 4550 850
+F 0 "TP12" H 4608 968 50  0000 L CNN
+F 1 "DR" H 4608 877 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4750 850 50  0001 C CNN
+F 3 "~" H 4750 850 50  0001 C CNN
+	1    4550 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP4
+U 1 1 618DC29F
+P 2050 850
+F 0 "TP4" H 2108 968 50  0000 L CNN
+F 1 "Z" H 2108 877 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 2250 850 50  0001 C CNN
+F 3 "~" H 2250 850 50  0001 C CNN
+	1    2050 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP2
+U 1 1 618DBFED
+P 1600 850
+F 0 "TP2" H 1658 968 50  0000 L CNN
+F 1 "RT" H 1658 877 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 1800 850 50  0001 C CNN
+F 3 "~" H 1800 850 50  0001 C CNN
+	1    1600 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP1
+U 1 1 618DB9C9
+P 1100 850
+F 0 "TP1" H 1158 968 50  0000 L CNN
+F 1 "LT" H 1158 877 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 1300 850 50  0001 C CNN
+F 3 "~" H 1300 850 50  0001 C CNN
+	1    1100 850 
+	1    0    0    -1  
+$EndComp
+Text Label 1100 850  3    50   ~ 0
+LT
+Text Label 1600 850  3    50   ~ 0
+RT
+Text Label 2050 850  3    50   ~ 0
+Z
+Text Label 2500 850  3    50   ~ 0
+S
+Text Label 3200 850  3    50   ~ 0
+DU
+Text Label 3650 850  3    50   ~ 0
+DD
+Text Label 4100 850  3    50   ~ 0
+DL
+Text Label 4550 850  3    50   ~ 0
+DR
+Text Label 850  1800 2    50   ~ 0
+LT
+Text Label 850  1900 2    50   ~ 0
+RT
+Text Label 850  2100 2    50   ~ 0
+Z
+Text Label 850  2300 2    50   ~ 0
+S
+NoConn ~ 850  2400
+NoConn ~ 850  2500
+NoConn ~ 1450 2450
+Text Label 2550 1800 2    50   ~ 0
+DU
+Text Label 2550 2000 2    50   ~ 0
+DD
+Text Label 2550 2200 2    50   ~ 0
+DL
+Text Label 2550 2400 2    50   ~ 0
+DR
+$Comp
+L power:GND #PWR0101
+U 1 1 618E1AF5
+P 2850 2650
+F 0 "#PWR0101" H 2850 2400 50  0001 C CNN
+F 1 "GND" H 2855 2477 50  0000 C CNN
+F 2 "" H 2850 2650 50  0001 C CNN
+F 3 "" H 2850 2650 50  0001 C CNN
+	1    2850 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 618E23A0
+P 1150 2650
+F 0 "#PWR0102" H 1150 2400 50  0001 C CNN
+F 1 "GND" H 1155 2477 50  0000 C CNN
+F 2 "" H 1150 2650 50  0001 C CNN
+F 3 "" H 1150 2650 50  0001 C CNN
+	1    1150 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0103
+U 1 1 618E272C
+P 1150 1600
+F 0 "#PWR0103" H 1150 1450 50  0001 C CNN
+F 1 "+3V3" H 1165 1773 50  0000 C CNN
+F 2 "" H 1150 1600 50  0001 C CNN
+F 3 "" H 1150 1600 50  0001 C CNN
+	1    1150 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0104
+U 1 1 618E2C01
+P 2850 1600
+F 0 "#PWR0104" H 2850 1450 50  0001 C CNN
+F 1 "+3V3" H 2865 1773 50  0000 C CNN
+F 2 "" H 2850 1600 50  0001 C CNN
+F 3 "" H 2850 1600 50  0001 C CNN
+	1    2850 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP3
+U 1 1 618E8398
+P 1650 1250
+F 0 "TP3" H 1708 1368 50  0000 L CNN
+F 1 "3v3" H 1708 1277 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 1850 1250 50  0001 C CNN
+F 3 "~" H 1850 1250 50  0001 C CNN
+	1    1650 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP5
+U 1 1 618E8E70
+P 2100 1250
+F 0 "TP5" H 2158 1368 50  0000 L CNN
+F 1 "GND" H 2158 1277 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 2300 1250 50  0001 C CNN
+F 3 "~" H 2300 1250 50  0001 C CNN
+	1    2100 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Gboy~Screen~Controller:NX138AKR Q1
+U 1 1 618E9339
+P 4100 1600
+F 0 "Q1" H 4254 1646 50  0000 L CNN
+F 1 "NX138AKR" H 4254 1555 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4100 1600 50  0001 C CNN
+F 3 "" H 4100 1600 50  0001 C CNN
+	1    4100 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 618EA82A
+P 4150 1800
+F 0 "#PWR0105" H 4150 1550 50  0001 C CNN
+F 1 "GND" H 4155 1627 50  0000 C CNN
+F 2 "" H 4150 1800 50  0001 C CNN
+F 3 "" H 4150 1800 50  0001 C CNN
+	1    4150 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP13
+U 1 1 618EC97B
+P 5250 1400
+F 0 "TP13" H 5308 1518 50  0000 L CNN
+F 1 "Source" H 5308 1427 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 5450 1400 50  0001 C CNN
+F 3 "~" H 5450 1400 50  0001 C CNN
+	1    5250 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Gboy~Screen~Controller:NX138AKR Q3
+U 1 1 618EC981
+P 5200 1600
+F 0 "Q3" H 5354 1646 50  0000 L CNN
+F 1 "NX138AKR" H 5354 1555 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5200 1600 50  0001 C CNN
+F 3 "" H 5200 1600 50  0001 C CNN
+	1    5200 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 618EC987
+P 5250 1800
+F 0 "#PWR0106" H 5250 1550 50  0001 C CNN
+F 1 "GND" H 5255 1627 50  0000 C CNN
+F 2 "" H 5250 1800 50  0001 C CNN
+F 3 "" H 5250 1800 50  0001 C CNN
+	1    5250 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP11
+U 1 1 618EDBE8
+P 4150 2250
+F 0 "TP11" H 4208 2368 50  0000 L CNN
+F 1 "+" H 4208 2277 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4350 2250 50  0001 C CNN
+F 3 "~" H 4350 2250 50  0001 C CNN
+	1    4150 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Gboy~Screen~Controller:NX138AKR Q2
+U 1 1 618EDBEE
+P 4100 2450
+F 0 "Q2" H 4254 2496 50  0000 L CNN
+F 1 "NX138AKR" H 4254 2405 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4100 2450 50  0001 C CNN
+F 3 "" H 4100 2450 50  0001 C CNN
+	1    4100 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 618EDBF4
+P 4150 2650
+F 0 "#PWR0107" H 4150 2400 50  0001 C CNN
+F 1 "GND" H 4155 2477 50  0000 C CNN
+F 2 "" H 4150 2650 50  0001 C CNN
+F 3 "" H 4150 2650 50  0001 C CNN
+	1    4150 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP14
+U 1 1 618EF0AA
+P 5250 2300
+F 0 "TP14" H 5308 2418 50  0000 L CNN
+F 1 "-" H 5308 2327 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 5450 2300 50  0001 C CNN
+F 3 "~" H 5450 2300 50  0001 C CNN
+	1    5250 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Gboy~Screen~Controller:NX138AKR Q4
+U 1 1 618EF0B0
+P 5200 2500
+F 0 "Q4" H 5354 2546 50  0000 L CNN
+F 1 "NX138AKR" H 5354 2455 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5200 2500 50  0001 C CNN
+F 3 "" H 5200 2500 50  0001 C CNN
+	1    5200 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 618EF0B6
+P 5250 2700
+F 0 "#PWR0108" H 5250 2450 50  0001 C CNN
+F 1 "GND" H 5255 2527 50  0000 C CNN
+F 2 "" H 5250 2700 50  0001 C CNN
+F 3 "" H 5250 2700 50  0001 C CNN
+	1    5250 2700
+	1    0    0    -1  
+$EndComp
+Text Label 3150 1850 0    50   ~ 0
++N
+Text Label 3850 2450 2    50   ~ 0
++N
+Text Label 3150 2050 0    50   ~ 0
+-N
+Text Label 4950 2500 2    50   ~ 0
+-N
+Text Label 4950 1600 2    50   ~ 0
+SourceN
+Text Label 3150 2250 0    50   ~ 0
+SourceN
+Text Label 3150 2450 0    50   ~ 0
+MenuN
+Text Label 3850 1600 2    50   ~ 0
+MenuN
+$Comp
+L power:+3V3 #PWR0109
+U 1 1 618F4C39
+P 1650 1250
+F 0 "#PWR0109" H 1650 1100 50  0001 C CNN
+F 1 "+3V3" H 1665 1423 50  0000 C CNN
+F 2 "" H 1650 1250 50  0001 C CNN
+F 3 "" H 1650 1250 50  0001 C CNN
+	1    1650 1250
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 618F5964
+P 2100 1250
+F 0 "#PWR0110" H 2100 1000 50  0001 C CNN
+F 1 "GND" H 2105 1077 50  0000 C CNN
+F 2 "" H 2100 1250 50  0001 C CNN
+F 3 "" H 2100 1250 50  0001 C CNN
+	1    2100 1250
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
